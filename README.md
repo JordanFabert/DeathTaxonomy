@@ -30,5 +30,5 @@ Usage of the awk script [createJsonFormat.awk](AWK_Files/createJsonFormat.awk) t
 
 # MISP Team in charge of the Project 
 
-- Alexandre DULAUNOY
-- Raphaël VINOT
+- Alexandre DULAUNOY : https://github.com/adulau
+- Raphaël VINOT : https://github.com/Rafiot
