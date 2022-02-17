@@ -12,7 +12,7 @@ Copy of the data on a text File, then usie of the sed command
 
 Usage of the awk script [separator.awk](AWK_Files/separator.awk) to organise the datas (result in [CauseOfDeathTrier.txt](Text_Files/CauseOfDeathTrier.txt)) 
 
-Usage of the awk script [createJsonFormat.awk]((AWK_Files/createJsonFormat.awk)) to create the Json file in the MISP format ([DeathPossibilitiesTaxonomy.json](DeathPossibilitiesTaxonomy.json))
+Usage of the awk script [createJsonFormat.awk](AWK_Files/createJsonFormat.awk) to create the Json file in the MISP format ([DeathPossibilitiesTaxonomy.json](DeathPossibilitiesTaxonomy.json))
 
 # TO-DO LIST
 
