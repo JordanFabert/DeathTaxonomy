@@ -1,7 +1,11 @@
-awk 'BEGIN {FS=" ";prec=0;k=0;res=200;tab[res]="{\n\t\"version\": 1, \n\t\"namespace\": \"JODA\", \n\t\"description\": \"Taxonomy of Death Possibilities\", \n\t\"values\": \n\t[\n"}
+awk 'BEGIN {FS=" ";prec=0;ch=1;k=0;res=200;tab[res]="{\n\t\"version\": 1, \n\t\"namespace\": \"JODA\", \n\t\"description\": \"Taxonomy of Death Possibilities\", \n\t\"values\": \n\t["}
 {
 	if($2 ~ /\$/){ 
+		if(ch == 0){
+			tab[res] = "" tab[res] ","
+		}
 		prec=0
+		ch=0
 		$1 = ""
 		$2 = ""
 		$3 = ""
@@ -9,9 +13,10 @@ awk 'BEGIN {FS=" ";prec=0;k=0;res=200;tab[res]="{\n\t\"version\": 1, \n\t\"names
 		if(k == 0){
 			k+=1
 		}else{
-			tab[res] = "" tab[res] "\n\t\t\t]\n\t\t}"
+			tab[res] = "" tab[res] "\n\t\t\t]\n\t\t},"
 		}
-		tab[res] = "" tab[res] ",\n\t\t{\n\t\t\t\"predicate\": \"" $0 "\", \n\t\t\t\"entry\": \n\t\t\t[\n"
+		
+		tab[res] = "" tab[res] "\n\t\t{\n\t\t\t\"predicate\": \"" $0 "\", \n\t\t\t\"entry\": \n\t\t\t[\n"
 	}else{
 		if($0 !~ /^$/){
 			if(prec == 1){
