@@ -7,11 +7,11 @@ Creating a Taxonomy for MISP
 
 Usage of the website http://www.wolfbane.com/icd/index.html for the Death Possibilities (International List of Causes of Death and Diseases)
 
-Copying the data on a text File, then using the sed command (sed 's/ /¤ /' Filename1.txt > OutputFilename.txt)
+Copy of the data on a text File, then usie of the sed command (sed 's/ /¤ /' Filename1.txt > OutputFilename.txt)
 
-Creating a new XLSX out of the text file, using ¤ as a separator
+Usage of the awk script separator.awk to organise the datas (result in CauseOfDeathTrier.txt)
 
-Converting the XLSX into a JSON
+Usage of the awk script createJsonFormat.awk to create the Json file in the MISP format (DeathPossibilitiesTaxonomy.json)
 
 # Collaborators 
 
