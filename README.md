@@ -14,6 +14,12 @@ Usage of the awk script [separator.awk](AWK_Files/separator.awk) to organise the
 
 Usage of the awk script [createJsonFormat.awk]((AWK_Files/createJsonFormat.awk)) to create the Json file in the MISP format ([DeathPossibilitiesTaxonomy.json](DeathPossibilitiesTaxonomy.json))
 
+# TO-DO LIST
+
+- [x] Creating a MISP Formated Json
+- [ ] Verifying if the format is working
+- [ ] [Validation by the MISP team in charge of project](https://github.com/JordanFabert/DeathTaxonomy/edit/main/README.md#misp-team-in-charge-of-the-project)
+
 # Collaborators 
 
 - Jordan FABERT : https://github.com/JordanFabert
