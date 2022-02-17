@@ -18,7 +18,7 @@ Usage of the awk script [createJsonFormat.awk]((AWK_Files/createJsonFormat.awk))
 
 - [x] Creating a MISP Formated Json
 - [ ] Verifying if the format is working
-- [ ] [Validation by the MISP team in charge of project](https://github.com/JordanFabert/DeathTaxonomy/edit/main/README.md#misp-team-in-charge-of-the-project)
+- [ ] [Validation by the MISP team in charge of project](https://github.com/JordanFabert/DeathTaxonomy#misp-team-in-charge-of-the-project)
 
 # Collaborators 
 
