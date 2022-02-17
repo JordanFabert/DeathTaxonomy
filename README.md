@@ -16,15 +16,13 @@ Usage of the awk script [createJsonFormat.awk]((AWK_Files/createJsonFormat.awk))
 
 # Collaborators 
 
-Jordan FABERT : https://github.com/JordanFabert
-
-Damien MOLLIERE : https://github.com/M2O2
+- Jordan FABERT : https://github.com/JordanFabert
+- Damien MOLLIERE : https://github.com/M2O2
 
 ![Joda](https://user-images.githubusercontent.com/45102082/154300725-88c043a7-e0a6-4e06-8117-b4eec9e25713.png)
 
 
 # MISP Team in charge of the Project 
 
-Alexandre DULAUNOY
-
-Raphaël VINOT
+- Alexandre DULAUNOY
+- Raphaël VINOT
