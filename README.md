@@ -7,7 +7,7 @@ Creating a Taxonomy for MISP
 
 Usage of the website http://www.wolfbane.com/icd/index.html for the Death Possibilities (International List of Causes of Death and Diseases)
 
-Copy of the data on a text File, then usie of the sed command 
+Copy of the data on a text File, then usage of the sed command 
 > sed 's/ /¤ /' Filename.txt > OutputFilename.txt
 
 Usage of the awk script [separator.awk](AWK_Files/separator.awk) to organise the datas (result in [CauseOfDeathTrier.txt](Text_Files/CauseOfDeathTrier.txt)) 
