@@ -1,7 +1,7 @@
 # DeathTaxonomy
 Taxonomy of Death Possibilities
 
-Creating a Taxonomy for MISP
+This project is part of the class of Threat Intelligence of the Master 2, SSI, in the UFR-MIM in Metz. The goal of this project is to collect existing datas to create a taxonomy or a galaxy in the MISP repository, to enable the possibility to use later on this taxonomy while using MISP. For this Project, we decided to create a taxonomy dealing with the death possibilities, in the purpose of an integration in MISP.
 
 # Creation of the JSON
 
