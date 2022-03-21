@@ -20,7 +20,7 @@ Usage of the awk script [createJsonFormat.awk](AWK_Files/createJsonFormat.awk) t
 - [X] Verifying if the format is working
 - [X] [Validation by the MISP team in charge of project](https://github.com/JordanFabert/DeathTaxonomy#misp-team-in-charge-of-the-project)
 - [X] Integration to the [MISP project](https://github.com/MISP)
-- [ ] End of project
+- [X] End of project
 
 # Collaborators 
 
